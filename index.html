@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+</head>
+<style>
+	  body,html  {
+         padding:0;
+         margin:0;
+         height:100%;
+         font-weight:500px;
+         box-sizing:border-box;
+	  }
+
+#img1,#img2,#img3 {
+
+	position:relative;
+	background:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#img1 {
+	background:url(sashwat.jpg);
+	min-height:100%;
+	background-attachment:fixed;
+}
+
+#img2 {
+background:url(Nusa-dua1-min-1200x798.jpg);
+	min-height:500px;
+	background-attachment:fixed;
+}
+
+#img3 {
+	background:url(pic.jpeg);
+	min-height:500px;
+	background-attachment:fixed;
+}
+  #prtext  {
+      width:100px;
+      position:absolute;
+      top:50%;
+      text-align:center;
+      text-transform:uppercase;
+      font-size:77px;
+      letter-spacing:77px;
+      color:#111;
+  }
+  section {
+  	text-align:cenrter;
+  	padding:70px 80px;
+  }
+  footer {
+       background:black;
+       color:white;
+       text-align:center;
+       padding:5px;
+  }
+
+
+	</style>
+<body>
+	<div id = "img1">
+     <h1  class="prtext" >parallex Effect </h1>
+     <section  id="section-one">
+     	<h2>SECTION ONE</h2>
+        <p> there is no vaceen for the virus i cought 
+m talking about my life shabdon me zindgi suna raha mee.....
+i do it from the heart, art hip-hop zindgi ka sahara ha 
+m not gona giv up they thought zindgi sa hara ma 
+kabhi na mitnae wali bookh mari 
+sadhun nishana jaee lakshya jayae chook mara 
+fir se prayas kaun har baar koshish kuch bada kuck khaas karun 
+          </p>
+     </section>
+	</div>
+
+
+
+		<div id = "img2">
+     <h1  class="prtext">parallex Effect </h1>
+      <section  id="section-two">
+     	<h2>SECTION two</h2>
+        <p> there is no vaceen for the virus i cought 
+m talking about my life shabdon me zindgi suna raha mee.....
+i do it from the heart, art hip-hop zindgi ka sahara ha 
+m not gona giv up they thought zindgi sa hara ma 
+kabhi na mitnae wali bookh mari 
+sadhun nishana jaee lakshya jayae chook mara 
+fir se prayas kaun har baar koshish kuch bada kuck khaas karun 
+          </p>
+     </section>
+	</div>
+
+
+		<div id = "img3">
+     <h1 class="prtext">parallex Effect </h1>
+      <section  id="section-three">
+     	<h2>SECTION three</h2>
+        <p> there is no vaceen for the virus i cought 
+m talking about my life shabdon me zindgi suna raha mee.....
+i do it from the heart, art hip-hop zindgi ka sahara ha 
+m not gona giv up they thought zindgi sa hara ma 
+kabhi na mitnae wali bookh mari 
+sadhun nishana jaee lakshya jayae chook mara 
+fir se prayas kaun har baar koshish kuch bada kuck khaas karun 
+          </p>
+     </section>
+	</div>
+	<footer>
+
+       <h2> &copy; Nitinneryal 2020  &reg; </h2>
+
+
+	</footer>
+	<script>
+
+		const Parallax = document.getElementById("img1");
+
+		window.addEventListener("scroll",function() {
+			let offset = window.pageYOffset
+
+  Parallax.style.backgroundPositionY = offset  * 0.6 + "px";                                                
+            
+			});
+
+
+
+
+	</script>
+</body>
+</html>
